@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "rg" {
-name = "pipelinerg"
-location = "east us"
+name = var.rgname
+location = var.loc
 }
